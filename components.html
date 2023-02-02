@@ -20,19 +20,26 @@
     <hr />
     <h2>@containers</h2>
     <h3>Centered Container</h3>
-    <div class="container-center">
+    <div class="container container-center">
       I am a centered container. I take specified width and I am centered.
     </div>
     <h3>Fluid Container</h3>
-    <div class="fluid-container">I am a fluid container. I take full width</div>
+    <div class="container container-fluid">
+      I am a fluid container. I take full width
+    </div>
     <hr />
-    <h2>@links</h2>
-    <a href="" class="primary-link">Primary Link</a>
-    <a href="">Secondary Link</a>
+    <h2>@button and links</h2>
+    <button class="button button-primary">
+      <a href="/" class="link-primary">Primary Link</a>
+    </button>
+    <button class="button button-secondary">
+      <a href="/" class="link-secondary">Secondary Link</a>
+    </button>
+
     <hr />
     <h2>@lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list-bulletless">
       <li>Unordered Item 1</li>
       <li>Unordered Item 2</li>
       <li>Unordered Item 3</li>
@@ -41,7 +48,7 @@
     </ul>
     <h3>Unordered Inline List</h3>
 
-    <ul>
+    <ul class="list-inline">
       <li>Inline List Item1</li>
       <li>Inline List Item2</li>
       <li>Inline List Item3</li>
@@ -71,7 +78,10 @@
     <h2>@header</h2>
     <header>
       <div class="profile-pic-container">
-        <img src="./images/profile-photo.png" class="profile-photo" />
+        <img
+          src="./images/undraw_developer_activity_re_39tg.svg"
+          class="profile-photo"
+        />
       </div>
       <h1>Heading Inside Hero</h1>
     </header>
