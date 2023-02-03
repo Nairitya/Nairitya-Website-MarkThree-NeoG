@@ -23,8 +23,10 @@ body {
 }
 h1,
 h2 {
+  padding: 1rem 0;
   color: var(--dark-gray);
 }
+
 hr {
   margin: 20px 0;
 }
@@ -92,6 +94,9 @@ nav a {
 }
 
 /* ------------------------------- Hero Header ------------------------------ */
+.hero {
+  text-align: center;
+}
 .header-photo {
   width: 100%;
 }
@@ -103,11 +108,28 @@ nav a {
   color: var(--primary-color);
 }
 /* --------------------------------- Section -------------------------------- */
-section {
-}
+
 section h2 {
   text-align: center;
 }
 section.offwhite {
   background-color: var(--offwhite);
+}
+
+/* --------------------------------- Footer --------------------------------- */
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.footer a {
+  color: #fff;
+  transition: color 0.3s;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 0 2rem;
+}
+.footer ul li a:hover {
+  color: #010a13;
 }
