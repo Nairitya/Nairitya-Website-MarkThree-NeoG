@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+/* -------------------------------- Variables -------------------------------- */
+:root {
+  --primary-color: #2bd984;
+  --secondary-color: #010a13;
+  --dark-gray: #1c1917;
+  --offwhite: #f3f4f6;
+}
+/* ---------------------------- Resetting Styles ---------------------------- */
+body,
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  color: var(--secondary-color);
+  /* padding: 100px; */
+  max-width: 85%;
+  width: 100%;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  padding: 1rem 0;
+  color: var(--dark-gray);
+}
+h2 {
+  font-size: 1.8rem;
+}
+
+hr {
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+}
+/* ------------------------------- Containers ------------------------------- */
+.container {
+  padding: 4rem 2rem;
+}
+.container-center {
+  /* text-align: center; */
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container-fluid {
+  display: flex;
+}
+/* ---------------------------------- Button and Links --------------------------------- */
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 20px 0;
+  background-color: transparent;
+}
+.button a {
+  font-size: 1.1rem;
+}
+.button-primary {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.link-primary {
+  color: #fff;
+}
+.button-secondary {
+  border: 1px solid var(--primary-color);
+}
+.link-secondary {
+  color: var(--primary-color);
+}
+/* ---------------------------------- Lists --------------------------------- */
+.list-bulletless {
+  list-style: none;
+}
+.list-inline > li {
+  display: inline;
+}
+/* --------------------------------- Navbar --------------------------------- */
+nav {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem 8rem;
+  gap: 10px 0;
+  border-radius: 0 0 40px 10px;
+}
+nav .list-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 50px;
+}
+nav a {
+  color: #fff;
+}
+nav .logo {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* ------------------------------- Hero Header ------------------------------ */
+.hero {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.header-photo {
+  width: 100%;
+}
+.hero-title {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+.highlight {
+  color: var(--primary-color);
+}
+/* --------------------------------- Section -------------------------------- */
+
+section h2 {
+  text-align: center;
+}
+section.offwhite {
+  background-color: var(--offwhite);
+}
+section p {
+  font-size: 1.1rem;
+}
+section.additional-skills ul {
+  padding: 2rem;
+}
+section.additional-skills li {
+  padding: 0.5rem 0;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.footer h2 {
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+  transition: color 0.3s;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 0 2rem;
+}
+.footer ul li a:hover {
+  color: #010a13;
+}
