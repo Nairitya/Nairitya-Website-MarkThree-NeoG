@@ -59,6 +59,9 @@ a {
   margin: 20px 0;
   background-color: transparent;
 }
+.button:hover {
+  cursor: pointer;
+}
 .button a {
   font-size: 1.1rem;
 }
