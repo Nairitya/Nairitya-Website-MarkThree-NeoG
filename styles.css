@@ -39,6 +39,9 @@ hr {
 a {
   text-decoration: none;
 }
+p {
+  line-height: 1.4;
+}
 /* ------------------------------- Containers ------------------------------- */
 .container {
   padding: 4rem 2rem;
