@@ -56,6 +56,7 @@ gql(GET_USER_ARTICLES, { page: 0 })
 
             let image = document.createElement('IMG');
             image.src = article.coverImage;
+            image.loading = "lazy";
 
             image.style.maxWidth = "100%"
 
